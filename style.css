@@ -1,0 +1,133 @@
+body{
+ background-image: radial-gradient(hsl(214, 47%, 23%),hsl(237, 48%, 15%));
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width:600px;
+  padding: 1rem 2rem;
+  border: 3px solid hsl(217, 16%, 45%);
+  border-radius: 1rem;
+}
+.score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+.score-score{
+  font-size: 2rem;
+  color: hsl(229, 64%, 46%);
+  font-weight: bold;
+}
+.score-number{
+  font-size: 2rem;
+  color: hsl(229, 25%, 31%);
+  font-weight: bold;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width:600px;
+  margin-top: 2rem;
+  
+}
+.triangle{
+  width: 100%;
+  
+}
+.body-image {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.paper{
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  border: solid 30px hsl(229, 64%, 46%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.rock{
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  border: solid 30px hsl(347, 75%, 35%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.scissor{
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  border: solid 30px hsl(28, 76%, 44%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.papers{
+  border: solid 30px hsl(229, 64%, 46%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+
+}
+.rocks{
+  border: solid 30px hsl(347, 75%, 35%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.scissors{
+  border: solid 30px hsl(28, 76%, 44%);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.game{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width:00px;
+  margin-top: 2rem;
+}
+h1{
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.mychoice, .computerchoice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rules{
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}

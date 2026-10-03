@@ -5,19 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
-
-  Score
-  Rules
-
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -26,12 +15,53 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="header">
+      <div class="header-image">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="score">
+        <div class="score-score">
+          score
+        </div>
+        <div class="score-number">
+          12
+        </div>
+      </div>
+    </div>
 
+
+    <div class="body">
+      <div class="body-image">
+        <img class="triangle" src="./images/bg-triangle.svg" alt="">
+        <div class="rock"><img src="./images/icon-rock.svg" alt=""></div>
+        <div class="scissor"><img src="./images/icon-scissors.svg" alt=""></div>
+        <div class="paper"><img src="./images/icon-paper.svg" alt=""></div>
+      </div>
+      
+    </div>
+
+    <!-- <div class="game">
+      <div class="mychoice">
+        <h1>You Picked</h1>
+        <div class="rocks"><img src="./images/icon-rock.svg" alt=""></div>
+      </div>
+      <div class="computerchoice">
+        <h1>The House Picked</h1>
+        <div class="scissors"><img src="./images/icon-scissors.svg" alt=""></div>
+      </div>
+    </div> -->
+
+    <div class="rules">
+       Rules
+    </div>
+
+  </div>
 
   
-  <footer class="attribution">
+  <!-- <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </footer>
+  </footer> -->
 </body>
 </html>
